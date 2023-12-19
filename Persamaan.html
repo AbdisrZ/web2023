@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persamaan Linear</title>
+    <link rel="icon" href="Logo Calculus.jpg">
+    <link rel="stylesheet" href="Style.css" >
+</head>
+<body>
+    <div class="topnav">
+        <a href="main.html" class="active">Home</a>
+        <a href="#">Persamaan Linear</a>
+        <a href="Pertidaksamaan.html">Pertidaksamaan Linear</a>
+    </div>
+
+    <div class="content2">
+        <h1>PERSAMAAN LINEAR</h1>
+        <h2># Persamaan Linear Satu Variabel</h2>
+        <h4>Definisi:</h4>
+        <p>Persamaan linear satu variabel adalah suatu bentuk persamaan matematika yang</p>
+        <p>melibatkan variabel tunggal, biasanya dilambangkan sebagai x, dan memiliki derajat</p>
+        <p>terendah pada variabel tersebut adalah 1. Dengan kata lain, variabel x tidak memiliki</p>
+        <p>eksponen atau pangkat yang lebih tinggi dari 1.</p>
+        <h4>Bentuk Umum:</h4>
+        <p>Persamaan linear satu variabel dapat ditulis dalam bentuk umum ax+b=0,</p>
+        <p>dimana a dan b adalah konstanta, dan a ≠ 0. Konstanta a tidak boleh sama dengan 0</p>
+        <p>karena itu akan membuat variabel x menjadi tidak relevan, dan persamaan akan</p>
+        <p>menjadi non-linear.</p>
+        <p>Contoh:</p>
+        <p>2x + 3 = 0</p>
+        <p>5x - 7 = 0</p>
+        <h4>Solusi:</h4>
+        <p>Solusi dari persamaan linear satu variabel ax + b = 0 dapat ditemukan dengan</p>
+        <p>mengisolasi variabel x. Solusinya adalah x = - b/a. Ini karena kita ingin mencari nilai x</p>
+        <p>yang membuat persamaan menjadi benar.</p>
+        <h4>Contoh:</h4>
+        <p>2x + 3 = 0</p>
+        <p>x = - 3/2</p>
+    </div>
+
+    <div class="container">
+        <h3>Kalkulator Persamaan Linear Satu Variabel</h3>
+        <label for="k">K (Persamaan linear)</label>
+        <input type="text" id="k" name="k"><br>
+        <label for="b">B (Persamaan linear)</label>
+        <input type="text" id="b" name="b"><br>
+        <button onclick="calculate()">Hitung</button>
+        <button type="reset">Reset</button>
+        <p id="result"></p>
+    </div>
+
+    <div class="content2">
+        <h2># Persamaan Linear Dua Variabel</h2>
+        <h4>Definisi:</h4>
+        <p>Persamaan linear dua variabel adalah suatu bentuk persamaan matematika yang</p>
+        <p>melibatkan dua variabel, biasanya dilambangkan sebagai x dan y, dan memiliki</p>
+        <p>derajat terendah pada kedua variabel adalah 1. Persamaan ini dapat direpresentasikan</p>
+        <p>dalam bentuk umum ax+by=c, di mana a, b, dan c adalah konstanta, dan a dan b</p>
+        <p>tidak dapat bersama-sama menjadi 0.</p>
+        <h4>Bentuk Umum:</h4>
+        <p>Persamaan linear dua variabel dapat ditulis dalam bentuk umum ax+by=c, di mana:</p>
+        <p>- a, b, dan c adalah konstanta</p>
+        <p>- a dan b tidak dapat bersama-sama menjadi 0</p>
+        <h4>Solusi:</h4>
+        <p>Solusi dari persamaan linear dua variabel adalah pasangan nilai (x,y) yang</p>
+        <p>memenuhi persamaan tersebut. Dalam kasus sistem dua persamaan linear dua</p>
+        <p>variabel, solusinya adalah titik di mana dua garis yang dihasilkan oleh persamaan</p>
+        <p>tersebut bersilangan:</p>
+        <h4>Contoh:</h4>
+        <p>2x+3y=6</p>
+        <p>4x−2y=8</p>
+        <p>Salah satu solusinya adalah (x,y)=(2,0).</p>
+    </div>
+
+    <div class="container">
+        <h3>Kalkulator Persamaan Linear Dua Variabel</h3>
+        <label for="k1">K1 (Persamaan linear 1)</label>
+        <input type="text" id="k1" name="k1"><br>
+        <label for="k2">K2 (Persamaan linear 2)</label>
+        <input type="text" id="k2" name="k2"><br>
+        <label for="b1">B1 (Persamaan linear 1)</label>
+        <input type="text" id="b1" name="b1"><br>
+        <label for="b2">B2 (Persamaan linear 2)</label>
+        <input type="text" id="b2" name="b2"><br>
+        <button onclick="calculate()">Hitung</button>
+        <button type="reset">Reset</button>
+        <p id="result"></p>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
